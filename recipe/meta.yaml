@@ -1,5 +1,5 @@
 {% set name = "dmqclib" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 50c615e6307b09f7291c9843223394bc870784634ffc5b0d20545a2212de787f
+  sha256: 3acd3506c10052d855b3127a86e5eeee32a0a2cf63f451b16b675e3a4783ce0a
 
 build:
   noarch: python
