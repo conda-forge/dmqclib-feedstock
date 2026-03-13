@@ -24,6 +24,7 @@ requirements:
     - python >={{ python_min }}
     - joblib >=1.4.2
     - jsonschema >=4.23.0
+    - matplotlib-base >=3.10.8
     - numpy >=2.2
     - pandas >=2.2
     - polars >=1.30.0
