@@ -1,5 +1,5 @@
 {% set name = "dmqclib" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.2" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3acd3506c10052d855b3127a86e5eeee32a0a2cf63f451b16b675e3a4783ce0a
+  sha256: 7724737b4f677dd5fb3b52fa6c58d982cf3efeaacd58922ffb082b15db2edb70
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - python >={{ python_min }}
     - joblib >=1.4.2
     - jsonschema >=4.23.0
+    - matplotlib-base >=3.10.8
     - numpy >=2.2
     - pandas >=2.2
     - polars >=1.30.0
